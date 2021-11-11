@@ -1,0 +1,40 @@
+:root {
+    --bg-black: black;
+    --bg-white: white;
+}
+
+body {
+    font-family: Helvetica, arial, sans-serif;
+}
+
+html {
+    font-size: 100%;
+    color: black;
+}
+
+
+
+
+
+/*  */
+.nav-top {
+    background-color: var(--bg-black);
+}
+
+.nav-bottom {
+    background-color: var(--bg-white);
+}
+
+nav img{
+    padding: 1em;
+    width: 100px;
+}
+
+.border-hamburger {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.drop-full-width {
+    width: 100%;
+}
