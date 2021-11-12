@@ -94,3 +94,18 @@ nav img{
     width: 100%;
     border-radius: 10px;
 }
+
+/* TO BE RELEASED */
+
+.takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.to-be-released .takes-two img {
+    width: 250px;
+}
