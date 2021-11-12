@@ -154,3 +154,21 @@ nav img{
 }
 
 /* SOCIAL */
+
+
+/* FOOTER */
+footer {
+
+}
+.bg-footer {
+    background-color: rgb(0,67,156);
+    padding: 5em 1em 5em 3em;
+}
+
+footer img {
+    width: 10%;
+}
+
+.end-info {
+    font-size: 0.8em;
+}
