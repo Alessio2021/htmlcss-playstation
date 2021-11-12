@@ -67,9 +67,6 @@ nav img{
     width: 250px;
 }
 
-.h-100 {
-    height: 100%;
-}
 
 .btn_my{
     border-radius: 25px;
@@ -93,6 +90,24 @@ nav img{
 .showroom .showroom-list img {
     width: 100%;
     border-radius: 10px;
+    transition: 0.5s;
+}
+.showroom .showroom-list img:hover {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+.showroom .container ul li {
+    opacity: 60%;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+.showroom .container ul li:hover {
+    opacity: 1;
+    border-bottom: 2px solid rgb(0,128,255);
+
 }
 
 /* TO BE RELEASED */
@@ -109,3 +124,9 @@ nav img{
 .to-be-released .takes-two img {
     width: 250px;
 }
+
+.to-be-released ul li img {
+    width: 100%;
+    border-radius: 10px;
+}
+
