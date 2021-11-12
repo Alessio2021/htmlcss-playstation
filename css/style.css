@@ -56,11 +56,11 @@ nav img{
 }
 .returnal {
     background-image: url(../img/jumbo-bg.png);
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+    padding-top: 250px;
 }
 
 .jumbotron .returnal img {
@@ -115,7 +115,6 @@ nav img{
 
 .takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -133,6 +132,25 @@ nav img{
 
 /* EXPLORE PS4 */
 
-.explore-ps4 .row .col img {
-    width: 100%;
+
+/* PLAYSTATION PLUS */
+
+.btn-plus {
+    background-color: rgb(217,218,220);
+    color: rgb(0,128,255);
 }
+.bg-plus {
+    background-color: rgb(190,188,187);
+}
+
+/* PLAYSTATION STORE */
+
+
+
+/* PLASYSTATION NOW */
+
+.bg-now {
+    background-color: rgb(22,28,59);
+}
+
+/* SOCIAL */
