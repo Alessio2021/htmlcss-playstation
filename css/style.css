@@ -15,6 +15,11 @@ html {
 
 
 /* NAV */
+
+.navbar_my_height{
+    height: 70px;
+}
+
 .nav-top {
     background-color: var(--bg-black);
 }
@@ -25,7 +30,7 @@ html {
 
 nav img{
     padding: 1em;
-    width: 100px;
+    width: 90px;
 }
 
 .border-hamburger {
@@ -46,10 +51,16 @@ nav img{
     display: inline;
 }
 
+.nav-bottom nav .dropdown-menu-my {
+    top: 67px;
+    left: 0;
+    margin-top: .125rem;
+}
+
 
 /* JUMBO */
 .jumbotron {
-    padding-top: 150px;
+    padding-top: 110px;
     color: white;
 }
 .returnal {
