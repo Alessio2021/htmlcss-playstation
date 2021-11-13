@@ -14,9 +14,7 @@ html {
 
 
 
-
-
-/*  */
+/* NAV */
 .nav-top {
     background-color: var(--bg-black);
 }
@@ -77,6 +75,11 @@ nav img{
     border-radius: 10px;
 }
 
+.jumbotron button:hover {
+    box-shadow: 0 0 0 2px rgb(220,53,69);
+    border: 1px solid black;
+}
+
 /* SHOWROOM */
 
 .showroom .row div img {
@@ -108,8 +111,14 @@ nav img{
 .showroom .container ul li:hover {
     opacity: 1;
     border-bottom: 2px solid rgb(0,128,255);
-
 }
+
+.showroom button:hover {
+    box-shadow: 0 0 0 2px rgb(0,128,255);
+    border: 1px solid white;
+}
+
+
 
 /* TO BE RELEASED */
 
@@ -130,17 +139,27 @@ nav img{
     border-radius: 15px;
 }
 
+.to-be-released button:hover {
+    box-shadow: 0 0 0 2px rgb(220,53,69);
+    border: 1px solid black;
+}
+
 /* EXPLORE PS4 */
 
+.explore-ps4 .row .col button:hover {
+    box-shadow: 0 0 0 2px rgb(0,128,255);
+    border: 1px solid white;
+}
 
 /* PLAYSTATION PLUS */
 
-.btn-plus {
-    background-color: rgb(217,218,220);
-    color: rgb(0,128,255);
-}
 .bg-plus {
     background-color: rgb(190,188,187);
+}
+
+.ps-plus button:hover {
+    box-shadow: 0 0 0 2px white;
+    border: 1px solid black;
 }
 
 /* PLAYSTATION STORE */
@@ -151,6 +170,11 @@ nav img{
 
 .bg-now {
     background-color: rgb(22,28,59);
+}
+
+.ps-now button:hover {
+    box-shadow: 0 0 0 2px white;
+    border: 1px solid black;
 }
 
 /* SOCIAL */
